@@ -1,0 +1,25 @@
+security:
+  whitelist:
+    urls:
+      - /jwt-demo/api/auth/v1/authenticate
+      - /jwt-demo/api/auth/v1/login
+      - /jwt-demo/api/auth/v1/register
+      - /jwt-demo/api/auth/v1/signUp
+      - /jwt-demo/api/auth/v1/welcome
+      - /jwt-demo/api/auth/**
+      - /api/test/**
+      - /v2/api-docs
+      - /v3/api-docs
+      - /v3/api-docs/**
+      - /swagger-resources
+      - /swagger-resources/**
+      - /configuration/ui
+      - /configuration/security
+      - /swagger-ui/**
+      - /webjars/**
+      - /swagger-ui.html
+      - /jwt-demo/swagger-ui.html
+      - /jwt-demo/swagger-ui/**
+      - /jwt-demo/v3/api-docs
+      - /jwt-demo/v3/api-docs/**
+  
